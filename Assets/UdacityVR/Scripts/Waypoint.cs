@@ -61,10 +61,11 @@ public class Waypoint : MonoBehaviour
 		_audio_source.clip		 	= clip_click;
 		_audio_source.playOnAwake 	= false;
 	}
-
+ 
 
 	void Update()
 	{
+		
 		bool occupied 	= Camera.main.transform.parent.transform.position == gameObject.transform.position;
 
 		switch(_state)
@@ -130,6 +131,10 @@ public class Waypoint : MonoBehaviour
 		
 		_audio_source.Play();
 
+		Debug.Log("click");
+		//Debug.Log("var2=" + Camera.main.transform.parent.transform.position.x);
+		//Debug.Log("var3=" + gameObject.transform.position.x);
+		//Camera.main.transform.parent.transform.position = gameObject.transform.position;
 		Camera.main.transform.parent.transform.position = gameObject.transform.position;
 	}
 

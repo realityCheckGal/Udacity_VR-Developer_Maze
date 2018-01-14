@@ -4,4 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/GoogleVR/Demos/Scenes/GVRDemo.unity
+    guid: b9c8aa0888cd62d4e9036af52859ca67
+  - enabled: 0
+    path: Assets/GoogleVR/Demos/Scenes/KeyboardDemo.unity
+    guid: 9a03cd27cb2b35847bee66bf3d538007
+  - enabled: 0
+    path: Assets/GoogleVR/Demos/Scenes/PermissionsDemo.unity
+    guid: a66b27dbfedff55468d5b594d23d4958
+  - enabled: 0
+    path: Assets/GoogleVR/Demos/Scenes/ScrollingUIDemo.unity
+    guid: c576f281bb3c7364f8d9438303cafa87
+  - enabled: 0
+    path: Assets/GoogleVR/Demos/Scenes/VideoDemo.unity
+    guid: e55d654a5766e1745afd5be794adaa04
+  - enabled: 1
+    path: Assets/UdacityVR/Scenes/SusansMaze.unity
+    guid: 782e302fc7b6e034dafcd69f67ad95dc
