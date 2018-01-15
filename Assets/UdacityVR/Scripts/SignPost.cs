@@ -4,9 +4,12 @@ using UnityEngine.SceneManagement;
 
 public class SignPost : MonoBehaviour
 {	
+	public Camera camera;
+
 	public void ResetScene(string sceneName) 
 	{
-        // Reset the scene when the user clicks the sign post
+        // Reset the rotation on the camera to identity
+        Camera.main.transform.rotation = Quaternion.identity;
         SceneManager.LoadScene (sceneName);
         Debug.Log("scene reset");
 	}
